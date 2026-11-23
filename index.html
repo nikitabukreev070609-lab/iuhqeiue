@@ -7,42 +7,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="logo">☕ Апрель</div>
+  <header class="header" id="header">
+    <a class="logo" href="index.html">☕ Апрель</a>
     <nav class="nav">
-      <a href="index.html">Главная</a>
-      <a href="about.html">О нас</a>
+      <a href="index.html" class="active">Главная</a>
+      <a href="about (1).html">О нас</a>
       <a href="contacts.html">Контакты</a>
     </nav>
   </header>
 
   <section class="hero">
+    <p class="hero-eyebrow">Кофейня на Липовой улице</p>
     <h1>Кофейня «Апрель»</h1>
-    <p>Место, где кофе варят с любовью, а гости чувствуют себя дома</p>
-    <a href="about.html" class="btn">Узнать больше</a>
+    <p class="hero-text">Место, где кофе варят с любовью,<br>а гости чувствуют себя дома</p>
+    <a href="about (1).html" class="btn">Узнать больше</a>
   </section>
 
   <section class="section">
-    <h2>Почему мы</h2>
+    <h2 class="section-title">Почему мы</h2>
     <div class="cards">
-      <div class="card">
+      <article class="card reveal">
         <div class="icon">🔥</div>
         <h3>Свежая обжарка</h3>
         <p>Зерно обжариваем каждую неделю и завариваем сразу после помола.</p>
-      </div>
-      <div class="card">
+      </article>
+      <article class="card reveal">
         <div class="icon">🍰</div>
         <h3>Свои десерты</h3>
         <p>Чизкейки и круассаны печём каждое утро в нашей пекарне.</p>
-      </div>
-      <div class="card">
+      </article>
+      <article class="card reveal">
         <div class="icon">🌿</div>
         <h3>Атмосфера</h3>
         <p>Тёплый свет, мягкая музыка и окна на старую липовую улицу.</p>
-      </div>
+      </article>
     </div>
   </section>
 
-  <footer class="footer">© 2026 Кофейня «Апрель»</footer>
+  <section class="banner reveal">
+    <h2>Загляните на чашечку</h2>
+    <p>ул. Липовая, 12 &middot; ежедневно с 8:00 до 22:00</p>
+    <a href="contacts.html" class="btn btn-outline">Как нас найти</a>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-logo">☕ Апрель</p>
+    <p>© 2026 Кофейня «Апрель»</p>
+    <p class="footer-note">Варим с любовью с 2015 года</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
